@@ -1,0 +1,16 @@
+link til mongodb
+C:\Program Files\MongoDB\Server\4.0\bin
+
+HBS			Navnet
+express --view hbs IkeaTraadfri
+
+Mongo
+npm install mongodb
+
+husk at navngive den dit navn
+
+husk af tage text dokument af db til mappe du aflevere.
+
+hashing brug solve så man har flere tegn end sit password er.
+
+hashing kan ikke dkrypt som hedder (irreversibel)
