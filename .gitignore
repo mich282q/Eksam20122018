@@ -1,1 +1,2 @@
 CryptoBank/node_modules/*
+!CryptoBank/node_modules/komponent/

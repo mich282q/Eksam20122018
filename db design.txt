@@ -1,16 +1,14 @@
-# login
-bruger
+﻿# login
+kundeid
 password
-kunde-id
+username
 CPR-nummer
 navn 
 adresse 
 
 # kunder
-kunde-id
-
+kundeid
 kontonummer
-
 valutatype 
 transaktion
 saldo

@@ -1,7 +1,7 @@
 /* 1 */
 {
     "_id" : ObjectId("5c1b51abec6ff6e19d201a27"),
-    "bruger_id" : "5554485fdfgd",
+    "kundeid" : "5554485fdfgd",
     "password" : "hjsfkdsf",
     "username" : "michael",
     "CPR-nummer" : NumberLong(5256855253),
@@ -12,7 +12,7 @@
 /* 2 */
 {
     "_id" : ObjectId("5c1b6005ec6ff6e19d201e4d"),
-    "bruger_id" : "5554485fdfghhdd",
+    "kundeid" : "5554485fdfghhdd",
     "password" : "hgjjk3jdgjkjkhg",
     "username" : "Lars",
     "CPR-nummer" : NumberLong(51668716),
