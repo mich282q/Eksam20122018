@@ -1,0 +1,29 @@
+* 1 */
+{
+    "_id" : ObjectId("5c1b5256ec6ff6e19d201a68"),
+    "bruger_id" : "5554485fdfgd",
+    "kontonummer" : "3045-556865",
+    "valutatype" : "Lintcoin",
+    "transaktion" : "tid, dato, valauturtype, kontonummer",
+    "saldo" : 5000
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("5c1b6fc0e750044b90041593"),
+    "bruger_id" : "5554485fdfghhdd1",
+    "kontonummer" : "3045-598266",
+    "valutatype" : "bitcoins",
+    "transaktion" : "11-31, 20-12-2018, bitcoins til bitcoins, 3045-5561 5000",
+    "saldo" : 9000
+}
+
+/* 3 */
+{
+    "_id" : ObjectId("5c1b711e6e44cc0df8a47126"),
+    "bruger_id" : "5554485fdfghhddsf",
+    "kontonummer" : "3045-556865",
+    "valutatype" : "bitcoins",
+    "transaktion" : "11-31, 20-12-2018, bitcoins til bitcoins, 3045-5561 5000",
+    "saldo" : "8000"
+}

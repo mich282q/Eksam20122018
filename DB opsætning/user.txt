@@ -1,0 +1,21 @@
+/* 1 */
+{
+    "_id" : ObjectId("5c1b51abec6ff6e19d201a27"),
+    "bruger_id" : "5554485fdfgd",
+    "password" : "hjsfkdsf",
+    "username" : "michael",
+    "CPR-nummer" : NumberLong(5256855253),
+    "navn" : "Michael trans",
+    "adresse" : "hejrevej10"
+}
+
+/* 2 */
+{
+    "_id" : ObjectId("5c1b6005ec6ff6e19d201e4d"),
+    "bruger_id" : "5554485fdfghhdd",
+    "password" : "hgjjk3jdgjkjkhg",
+    "username" : "Lars",
+    "CPR-nummer" : NumberLong(51668716),
+    "navn" : "Lars trans",
+    "adresse" : "Bjergbygade 18B. st. th 4200 slagelse"
+}
