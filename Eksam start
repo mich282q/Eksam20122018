@@ -2,7 +2,7 @@ link til mongodb
 C:\Program Files\MongoDB\Server\4.0\bin
 
 HBS			Navnet
-express --view hbs IkeaTraadfri
+express --view hbs CryptoBank
 
 Mongo
 npm install mongodb

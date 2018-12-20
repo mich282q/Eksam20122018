@@ -1,0 +1,22 @@
+# login
+bruger
+password
+bruger_id
+CPR-nummer
+navn 
+adresse 
+
+# kunder
+bruger_id
+
+kontonummer
+
+valutatype 
+transaktion
+saldo
+
+
+5. overføre fra konto
+den skal gemme i db hvor penge er blevet ført hen til.
+der vil være dato og kontonummer hvor penge er ført hen til.
+der skal omregnes ud fra den gælder valutakurs som penge bliver ført over til.

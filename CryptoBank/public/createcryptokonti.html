@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <nav>
+        <div>
+            <ul class="navbar-nav">
+               <li class="nav-item">
+                    <a href="afterlogin">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="cryptokonti/json">Json</a>
+                </li>
+                <li class="nav-item">
+                    <a href="createcryptokonti.html">Oprettet Konti</a>
+                </li>
+                <li class="nav-item">
+                    <a href="redigerkonti">Redigerkonti</a>
+                </li>
+                <li class="nav-item">
+                    <a href="Konti.html">Dummy data</a>
+                </li>
+                <li class="nav-item">
+                    <a href="cryptokonti">Konti fra db</a>
+                </li>
+                  <li class="nav-item">
+                    <a class="active" href="./">LogOut</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+<form>
+                    <input type="button" value="Go back!" onclick="history.back()">
+                  </form>
+                  <h1>Oprettet konti</h1>
+    <form action="cryptokonti/json" method="post" class="create">
+        <label>bruger_id</label> <input type="text" placeholder="userId" name="bruger_id"><br />
+        <label>kontonummer</label> <input type="text" placeholder="3045-" name="kontonummer"><br />
+        <label>valutatype</label> <input type="text" placeholder="Bitcoin" name="valutatype"><br />
+        <label>transaktion</label> <input type="text" placeholder="tid, dato, valauturtype, kontonummer" name="transaktion"><br />
+        <label>saldo</label> <input type="number" placeholder="antal penge" name="saldo"><br />
+        <button type="submit">Create konti</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,64 @@
+<form>
+    <input type="button" value="Go back!" onclick="history.back()">
+</form>
+
+<h1>{{title}}</h1>
+<p>Crypto Bank {{title}}</p>
+
+ <nav>
+        <div>
+            <ul class="navbar-nav">
+               <li class="nav-item">
+                    <a href="afterlogin">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="cryptokonti/json">Json</a>
+                </li>
+                <li class="nav-item">
+                    <a href="createcryptokonti.html">Oprettet Konti</a>
+                </li>
+                <li class="nav-item">
+                    <a href="redigerkonti">Redigerkonti</a>
+                </li>
+                <li class="nav-item">
+                    <a href="Konti.html">Dummy data</a>
+                </li>
+                <li class="nav-item">
+                    <a href="cryptokonti">Konti fra db</a>
+                </li>
+                  <li class="nav-item">
+                    <a class="active" href="./">LogOut</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+        <form>
+<h2 id="overskrift">Følgende konti er i databasen:</h2>
+
+<table class="table">
+<tr>
+            <th>UID</th>
+            <th>bruger_id</th>
+            <th>kontonummer</th>
+            <th>valutatype</th>
+            <th>transaktion</th>
+            <th>saldo</th>
+        </tr>
+        {{#each beckonti}}
+        <td>{{_id}}</td>
+        <td>{{bruger_id}}</td>
+        <td>{{kontonummer}}</td>
+        <td>{{valutatype}}</td>
+        <td>{{transaktion}}</td>
+        <td>{{saldo}}</td>
+        <td>
+            <form action="/cryptokonti/delete/{{_id}}" method="POST">
+                <button>Fjern</button>
+            </form>
+        </td>
+
+    </tr>
+    </div>
+    {{/each}}
+
+</table>
