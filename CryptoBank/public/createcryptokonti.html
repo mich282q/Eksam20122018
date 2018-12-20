@@ -41,11 +41,11 @@
                   </form>
                   <h1>Oprettet konti</h1>
     <form action="cryptokonti/json" method="post" class="create">
-        <label>bruger_id</label> <input type="text" placeholder="userId" name="bruger_id"><br />
-        <label>kontonummer</label> <input type="text" placeholder="3045-" name="kontonummer"><br />
-        <label>valutatype</label> <input type="text" placeholder="Bitcoin" name="valutatype"><br />
-        <label>transaktion</label> <input type="text" placeholder="tid, dato, valauturtype, kontonummer" name="transaktion"><br />
-        <label>saldo</label> <input type="number" placeholder="antal penge" name="saldo"><br />
+        <label>bruger_id</label> <input type="text" placeholder="userId" name="bruger_id" required><br />
+        <label>kontonummer</label> <input type="text" placeholder="3045-" name="kontonummer" required><br />
+        <label>valutatype</label> <input type="text" placeholder="Bitcoin" name="valutatype" required><br />
+        <label>transaktion</label> <input type="text" placeholder="tid, dato, valauturtype, kontonummer" name="transaktion" required><br />
+        <label>saldo</label> <input type="number" placeholder="antal penge" name="saldo" required><br />
         <button type="submit">Create konti</button>
     </form>
 </body>

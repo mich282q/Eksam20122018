@@ -1,0 +1,18 @@
+1: Teknologispørgsmål
+Den skal kende port nr og IP adresse.
+vil sende det med TCP da jeg sikker mig at alle data er modtage og den ikke har miste
+5000 kr undervejs.
+
+TCP som ligger i layer 4 i OSI Model
+TCP laver handshaks som tjekker om alle pakke er modtaget og laver en checksum er i TCP header som
+tjekker om der mangler en bit, byte eller en dårlig pakke som er kommet
+fra den som har sendt det
+
+2. Teknologispørgsmål
+
+jeg vil bruge en hardware firewall (feks. watchguard) som bliver sat i rack skabet som 
+har en vpn som er kryptet mellem de 2 så de 2 netværker bliver trust men stadig tjekker 
+data at der ikke er kommet noget andet i dem så man sikker sig at det
+data som bliver sendt mellem de 2 ikke bliver fanget af andre som 
+kan misbruge det data.
+

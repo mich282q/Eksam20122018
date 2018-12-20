@@ -31,15 +31,15 @@
      <form action="/redigerkonti/put" method="post" class="rediger">
      <label><b>Hvilken konti skal justeres?</b></label>
      <br>
-        <label>UsernameId</label> <input type="text" placeholder="userId" name="bruger_id">
+        <label>bruger_id</label> <input type="text" placeholder="userId" name="bruger_id">
         <td> <button type="submit" class="btn btn-dark">Find</button></td><br />
 
         <label><b>Justeringer:</b></label><br>
 
-        <label>bruger_id</label> <input type="text" name="bruger_id"><br />
-        <label>KontoNummer</label> <input type="text" name="kontoNummer"><br />
-        <label>valutatype</label> <input type="text" name="valutatype"><br />
-        <label>transaktion</label> <input type="text" name="transaktion"><br />
-        <label>saldo</label> <input type="number" name="saldo"><br />
+        <label>bruger_id</label> <input type="text" name="bruger_id" required><br />
+        <label>KontoNummer</label> <input type="text" name="kontoNummer" required><br />
+        <label>valutatype</label> <input type="text" name="valutatype"required><br />
+        <label>transaktion</label> <input type="text" name="transaktion" required><br />
+        <label>saldo</label> <input type="number" name="saldo"required><br />
         
     </form>
