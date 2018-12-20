@@ -42,7 +42,7 @@ router.post('/json', function (req, res, next) {
       if (err) throw err;
       var dbo = db.db("CryptoBank");
       var cryptokonti = {};
-      cryptokonti.bruger_id = req.body.bruger_id;
+      cryptokonti.kundeid = req.body.kundeid;
       cryptokonti.kontonummer = req.body.kontonummer;
       cryptokonti.valutatype = req.body.valutatype;
       cryptokonti.transaktion = req.body.transaktion;

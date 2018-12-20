@@ -14,9 +14,9 @@ router.get('/', function(req, res, next) {
     MongoClient.connect(url, function (err, db) {
       if (err) throw err;
       var dbo = db.db("CryptoBank");
-      var bruger_id = (req.body.bruger_id);
-      var oldValues = {bruger_id:bruger_id}
-      var newValues={$set: {bruger_id: req.body.bruger_id, kontonummer: req.body.kontonummer, valutatype: req.body.valutatype, transaktion: req.body.transaktion, saldo: Number(req.body.saldo)}}
+      var kundeid = req.body.kundeid;
+      var oldValues = {kundeid:kundeid}
+      var newValues={$set: {kundeid: req.body.kundeid, kontonummer: req.body.kontonummer, valutatype: req.body.valutatype, transaktion: req.body.transaktion, saldo: Number(req.body.saldo)}}
     
         dbo.collection("konti").updateOne(oldValues, newValues, function (err, res) {
         if (err) throw err;
